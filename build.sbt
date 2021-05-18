@@ -2,14 +2,15 @@ name := "scala-boilerplate"
 
 version := "0.1"
 
-scalaVersion := "2.13.5"
+scalaVersion := "2.13.6"
 
 // From https://tpolecat.github.io/2017/04/25/scalac-flags.html
 scalacOptions ++= Seq(
   "-deprecation",
   "-feature",
   "-Ymacro-annotations",
-  "-Xfatal-warnings"
+  "-Xfatal-warnings",
+  "-Xsource:3"
 )
 
 val http4sVersion      = "0.21.7"
