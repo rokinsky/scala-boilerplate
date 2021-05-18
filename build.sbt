@@ -77,6 +77,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.slick"       %% "slick-hikaricp"                % slickVersion,
 )
 
-addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.11.1" cross CrossVersion.full)
+addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.13.0" cross CrossVersion.full)
 
 run / fork := true
